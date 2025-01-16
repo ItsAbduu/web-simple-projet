@@ -343,7 +343,7 @@ footer {
         );
         border-radius: 50px;
         position: fixed;
-        top: 12%;
+        top: 120px;
         right: 5%;
         opacity: 0;
         transform: translateX(115%);
