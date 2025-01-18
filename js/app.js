@@ -1,3 +1,4 @@
+// Global script
 const copy = document.getElementById("copy");
 
 let date = new Date();

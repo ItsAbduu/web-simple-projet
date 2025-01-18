@@ -1,3 +1,5 @@
+// script to handle contact page
+
 const contactForm = document.querySelector(".contact-form");
 const modal = document.getElementById("formModal");
 const closeModalButton = document.getElementById("closeModal");
