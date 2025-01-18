@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/fav/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/fav/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/fav/favicon-16x16.png"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/contact.css" />
+    <title>Abdellah Elmiloudi</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <br />
+        <nav class="navbar">
+          <a class="navbar-left" href="/">Abduu</a>
+          <div class="hamburger is-lg">
+            <img src="./img/list.svg" id="hamburger" alt="menu button" />
+          </div>
+          <div class="navbar-right">
+            <a class="navbar-link" href="#">Blog</a>
+            <a class="navbar-link" href="/#about">About</a>
+            <a class="navbar-link" href="/#projects">Projects</a>
+            <a class="btn navbar-button" href="contact.html">Contact</a>
+          </div>
+        </nav>
+
+        <div class="mobile-nav">
+          <a class="navbar-link" href="#">Blog</a>
+          <a class="navbar-link" href="/#about">About</a>
+          <a class="navbar-link" href="/#projects">Projects</a>
+          <a class="btn navbar-button" href="/contact.html">Contact</a>
+        </div>
+      </header>
+
+      <main>
+        <section class="contact-section">
+          <h1>Contactez-Moi</h1>
+          <form class="contact-form">
+            <div>
+              <label for="name">Nom :</label>
+              <br />
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Votre nom"
+              />
+            </div>
+
+            <div>
+              <label for="email">Email :</label>
+              <br />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Votre email"
+              />
+            </div>
+
+            <div>
+              <label for="subject">Sujet :</label>
+              <br />
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Le sujet"
+              />
+            </div>
+
+            <div>
+              <label for="message">Message :</label>
+              <br />
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Votre message"
+                rows="8"
+              ></textarea>
+            </div>
+            <p class="error"></p>
+            <button class="btn" id="contact-btn" type="submit">Envoyer</button>
+          </form>
+          <div id="formModal" class="modal">
+            <div class="modal-content">
+              <h2>Votre Message</h2>
+              <p><strong>Nom:</strong> <span id="modalName"></span></p>
+              <p><strong>Email:</strong> <span id="modalEmail"></span></p>
+              <p><strong>Sujet:</strong> <span id="modalSubject"></span></p>
+              <p><strong>Message:</strong> <span id="modalMessage"></span></p>
+              <button class="btn" id="closeModal">Fermer</button>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <footer>
+      <p id="copy">&copy;</p>
+      <div class="navbar-right" id="footer-nav">
+        <a class="navbar-link" href="#">Blog</a>
+        <a class="navbar-link" href="/#about">About</a>
+        <a class="navbar-link" href="contact.html">Contact</a>
+      </div>
+    </footer>
+    <script src="/js/app.js"></script>
+    <script src="/js/contact.js"></script>
+  </body>
+</html>
