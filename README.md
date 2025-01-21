@@ -1,6 +1,6 @@
 # Simple Projet Web - Programmation Web
 
-**Étudiant :** Abdellah  
+**Étudiant :** Abdellah  Elmiloudi
 **Niveau :** S3 (IA)  
 **Module :** Programmation Web  
 
@@ -23,7 +23,7 @@ Ce projet a été développé dans le cadre du module **Programmation Web**. Il 
 3. **Modifier le Code :** Vous pouvez personnaliser les fichiers pour explorer et tester.  
 
 ## Contributions
-Ce projet a été réalisé par **Abdellah** sous la supervision du professeur dans le cadre des travaux pratiques.
+Ce projet a été réalisé par **Abdellah Elmiloudi**.
 
-### Merci pour votre attention !
+### Merci pour votre visite !
 
